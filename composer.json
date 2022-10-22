@@ -1,0 +1,13 @@
+{
+    "name": "html/parser",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Html\\Parser\\": "src/"
+        }
+    },
+    "require": {
+      "php": ">=8.1",
+      "ext-curl": "*"
+    }
+}
